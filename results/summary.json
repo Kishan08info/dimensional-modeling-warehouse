@@ -1,0 +1,362 @@
+{
+  "source_rows": {
+    "customers_cdc": 588,
+    "products_cdc": 35,
+    "orders": 2400
+  },
+  "warehouse": {
+    "dim_customer_rows": 588,
+    "dim_product_rows": 35,
+    "dim_date_rows": 546,
+    "fact_orders_rows": 2400,
+    "current_customers": 400,
+    "current_products": 24
+  },
+  "analysis": {
+    "monthly_revenue": [
+      {
+        "month": "2025-01",
+        "paid_orders": 6,
+        "paid_revenue": 4914.62
+      },
+      {
+        "month": "2025-02",
+        "paid_orders": 13,
+        "paid_revenue": 12127.07
+      },
+      {
+        "month": "2025-03",
+        "paid_orders": 24,
+        "paid_revenue": 15814.36
+      },
+      {
+        "month": "2025-04",
+        "paid_orders": 37,
+        "paid_revenue": 31245.19
+      },
+      {
+        "month": "2025-05",
+        "paid_orders": 39,
+        "paid_revenue": 32137.29
+      },
+      {
+        "month": "2025-06",
+        "paid_orders": 55,
+        "paid_revenue": 44274.75
+      },
+      {
+        "month": "2025-07",
+        "paid_orders": 78,
+        "paid_revenue": 58128.14
+      },
+      {
+        "month": "2025-08",
+        "paid_orders": 103,
+        "paid_revenue": 91751.04
+      },
+      {
+        "month": "2025-09",
+        "paid_orders": 101,
+        "paid_revenue": 82558.11
+      },
+      {
+        "month": "2025-10",
+        "paid_orders": 136,
+        "paid_revenue": 99114.96
+      },
+      {
+        "month": "2025-11",
+        "paid_orders": 158,
+        "paid_revenue": 122287.38
+      },
+      {
+        "month": "2025-12",
+        "paid_orders": 206,
+        "paid_revenue": 169689.8
+      },
+      {
+        "month": "2026-01",
+        "paid_orders": 231,
+        "paid_revenue": 177378.2
+      },
+      {
+        "month": "2026-02",
+        "paid_orders": 198,
+        "paid_revenue": 157111.08
+      },
+      {
+        "month": "2026-03",
+        "paid_orders": 200,
+        "paid_revenue": 156367.35
+      },
+      {
+        "month": "2026-04",
+        "paid_orders": 212,
+        "paid_revenue": 157126.46
+      },
+      {
+        "month": "2026-05",
+        "paid_orders": 195,
+        "paid_revenue": 166783.81
+      },
+      {
+        "month": "2026-06",
+        "paid_orders": 199,
+        "paid_revenue": 154585.89
+      }
+    ],
+    "revenue_by_plan_at_order_time": [
+      {
+        "plan_at_order_time": "starter",
+        "paid_orders": 786,
+        "paid_revenue": 628046.7
+      },
+      {
+        "plan_at_order_time": "growth",
+        "paid_orders": 626,
+        "paid_revenue": 502115.41
+      },
+      {
+        "plan_at_order_time": "pro",
+        "paid_orders": 503,
+        "paid_revenue": 388488.47
+      },
+      {
+        "plan_at_order_time": "enterprise",
+        "paid_orders": 276,
+        "paid_revenue": 214744.92
+      }
+    ],
+    "revenue_by_plan_current": [
+      {
+        "current_plan": "starter",
+        "paid_orders": 719,
+        "paid_revenue": 575032.3
+      },
+      {
+        "current_plan": "pro",
+        "paid_orders": 597,
+        "paid_revenue": 476913.43
+      },
+      {
+        "current_plan": "growth",
+        "paid_orders": 581,
+        "paid_revenue": 460602.66
+      },
+      {
+        "current_plan": "enterprise",
+        "paid_orders": 294,
+        "paid_revenue": 220847.11
+      }
+    ],
+    "revenue_by_region_at_order_time": [
+      {
+        "region_at_order_time": "US-West",
+        "paid_orders": 768,
+        "paid_revenue": 591856.93
+      },
+      {
+        "region_at_order_time": "US-East",
+        "paid_orders": 543,
+        "paid_revenue": 455499.1
+      },
+      {
+        "region_at_order_time": "EU",
+        "paid_orders": 462,
+        "paid_revenue": 364743.61
+      },
+      {
+        "region_at_order_time": "APAC",
+        "paid_orders": 418,
+        "paid_revenue": 321295.86
+      }
+    ],
+    "revenue_by_region_current": [
+      {
+        "current_region": "US-West",
+        "paid_orders": 751,
+        "paid_revenue": 582068.0
+      },
+      {
+        "current_region": "US-East",
+        "paid_orders": 542,
+        "paid_revenue": 441846.14
+      },
+      {
+        "current_region": "EU",
+        "paid_orders": 468,
+        "paid_revenue": 381445.35
+      },
+      {
+        "current_region": "APAC",
+        "paid_orders": 430,
+        "paid_revenue": 328036.01
+      }
+    ],
+    "revenue_by_category": [
+      {
+        "category": "Security",
+        "paid_orders": 560,
+        "paid_revenue": 504808.72
+      },
+      {
+        "category": "Analytics",
+        "paid_orders": 571,
+        "paid_revenue": 490790.98
+      },
+      {
+        "category": "Collaboration",
+        "paid_orders": 536,
+        "paid_revenue": 378388.42
+      },
+      {
+        "category": "Integrations",
+        "paid_orders": 524,
+        "paid_revenue": 359407.38
+      }
+    ],
+    "plan_changes": [
+      {
+        "version_transitions": 188,
+        "upgrades": 93,
+        "downgrades": 33,
+        "same_plan_versions": 62
+      }
+    ],
+    "scd_stats": [
+      {
+        "customers": 400,
+        "customer_versions": 588,
+        "customers_with_changes": 164,
+        "products": 24,
+        "product_versions": 35,
+        "products_with_price_changes": 11
+      }
+    ],
+    "top_customers_ltv": [
+      {
+        "customer_id": "C0217",
+        "current_plan": "starter",
+        "paid_orders": 12,
+        "lifetime_value": 13717.87
+      },
+      {
+        "customer_id": "C0317",
+        "current_plan": "growth",
+        "paid_orders": 9,
+        "lifetime_value": 12969.0
+      },
+      {
+        "customer_id": "C0060",
+        "current_plan": "starter",
+        "paid_orders": 12,
+        "lifetime_value": 12657.42
+      },
+      {
+        "customer_id": "C0259",
+        "current_plan": "starter",
+        "paid_orders": 11,
+        "lifetime_value": 11386.1
+      },
+      {
+        "customer_id": "C0293",
+        "current_plan": "growth",
+        "paid_orders": 10,
+        "lifetime_value": 11368.9
+      },
+      {
+        "customer_id": "C0376",
+        "current_plan": "enterprise",
+        "paid_orders": 11,
+        "lifetime_value": 10261.23
+      },
+      {
+        "customer_id": "C0189",
+        "current_plan": "growth",
+        "paid_orders": 7,
+        "lifetime_value": 10154.7
+      },
+      {
+        "customer_id": "C0331",
+        "current_plan": "growth",
+        "paid_orders": 11,
+        "lifetime_value": 10129.55
+      },
+      {
+        "customer_id": "C0197",
+        "current_plan": "starter",
+        "paid_orders": 11,
+        "lifetime_value": 9875.45
+      },
+      {
+        "customer_id": "C0338",
+        "current_plan": "pro",
+        "paid_orders": 9,
+        "lifetime_value": 9729.71
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "duplicate_customer_keys",
+      "violations": 0,
+      "pass": true
+    },
+    {
+      "name": "duplicate_product_keys",
+      "violations": 0,
+      "pass": true
+    },
+    {
+      "name": "overlapping_customer_ranges",
+      "violations": 0,
+      "pass": true
+    },
+    {
+      "name": "overlapping_product_ranges",
+      "violations": 0,
+      "pass": true
+    },
+    {
+      "name": "invalid_effective_ranges",
+      "violations": 0,
+      "pass": true
+    },
+    {
+      "name": "unresolved_customer_orders",
+      "violations": 0,
+      "pass": true
+    },
+    {
+      "name": "unresolved_product_orders",
+      "violations": 0,
+      "pass": true
+    },
+    {
+      "name": "fact_row_count_matches_raw",
+      "violations": 0,
+      "pass": true
+    },
+    {
+      "name": "paid_revenue_reconciles",
+      "violations": 0.0,
+      "pass": true
+    },
+    {
+      "name": "current_customer_count",
+      "violations": 0,
+      "pass": true
+    },
+    {
+      "name": "plan_attribution_correct",
+      "violations": 0,
+      "pass": true
+    },
+    {
+      "name": "amount_matches_price_asof",
+      "violations": 0,
+      "pass": true
+    }
+  ],
+  "all_checks_pass": true
+}
